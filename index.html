@@ -1,14 +1,14 @@
-<html lang="en">
+<!DOCTYPE html> 
+<lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hefer Talent Solutions</title>
-    <link rel="stylesheet" href="#styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
 <style>
     /* Navbar Styles */
     nav {
-        background-color: rgb(49, 49, 49) !important; 
+        background-color: rgb(13, 13, 13) !important; 
         padding: 15px !important;
         position: fixed !important; /* Fixed position */
         top: 0 !important; /* Stick to the top */
@@ -36,13 +36,27 @@
         font-size: 16px !important;
     }
 
-    /* Image Styles */
+    /* Nav Image Styles */
     .nav-icon img {
         width: 50px !important; /* Adjust size as needed */
         height: 50px !important; /* Ensure it’s a square for a perfect circle */
         border-radius: 50% !important; /* Make the image circular */
         object-fit: cover !important; /* Ensures the image covers the box */
     }
+
+    #banner {
+        width: 100% !important; /* Ensures the image takes the full width of the screen */
+        height: auto !important; /* Maintains aspect ratio of the image */
+        display: block; /* Removes inline spacing */
+        object-fit: cover; /* Ensures it covers its container */
+    }
+
+    /* Ensures the banner image starts after the navbar */
+    body {
+        margin: 0; /* Removes default body margin */
+        padding-top: 80px !important; /* Adjust according to navbar height */
+    }
+
 </style>
 </head>
 <body>
@@ -66,7 +80,7 @@
     </nav>
 
     <!--Main content-->
-    <img src="banner.png" alt="Banner Imge">
+    <img src="banner.png" id="banner" alt="Banner Imge">
     
 </body>
 </html>
