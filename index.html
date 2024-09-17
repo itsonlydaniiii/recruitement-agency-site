@@ -3,104 +3,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hefer Talent Solutions</title>
-    <style>
-        /* Navigation bar styling */
-        .navbar {
-            position: fixed; /* Fixed position to stick to the top */
-            top: 0;
-            left: 0;
-            right: 0;
-            max-width: 1200px; /* Max width to prevent stretching */
-            margin: 0 auto; /* Center the navbar */
-            font-size: 18px;
-            background-color: #ffffff; /* White background color for the navbar */
-            display: flex; /* Use Flexbox for layout */
-            justify-content: space-between; /* Space between logo and links */
-            align-items: center; /* Vertically align items */
-            padding: 10px 20px; /* Default padding */
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Shadow effect for visual separation */
-            z-index: 1000; /* Ensures navbar is above other content */
-        }
-
-        .navbar img {
-            width: 200px; /* Width of the company logo */
-            height: auto; /* Auto height to maintain aspect ratio */
-        }
-
-        /* Styling for nav links */
-        .nav-links {
-            display: flex;
-            align-items: center;
-        }
-
-        .nav-links a {
-            text-decoration: none;
-            color: #8e24aa; /* Dark Purple color for text links */
-            margin: 0 15px;
-            padding: 5px 10px;
-            border: 1px solid transparent; /* Default border for buttons */
-            border-radius: 4px; /* Rounded corners for buttons */
-            transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition effects */
-        }
-
-        .nav-links a:hover {
-            background-color: black; /* Light Purple color on hover */
-            color: white;
-        }
-
-        .navbar .home {
-            color: black; /* Dark Purple color for the Home link */
-        }
-
-        .navbar .home:hover {
-            background-color: black; /* Light Purple color on hover for Home link */
-            color: #ffffff;
-        }
-
-        /* Burger menu styles */
-        .burger {
-            display: none; /* Hidden by default */
-            cursor: pointer;
-            flex-direction: column;
-            justify-content: space-between;
-            height: 21px; /* Adjust for three 7px bars */
-            width: 30px;
-        }
-
-        .burger div {
-            height: 3px;
-            background-color: black; /* Dark Purple color for burger lines */
-            border-radius: 2px;
-            transition: all 0.3s ease;
-        }
-
-        /* CSS for hiding and showing nav links in mobile view */
-        @media (max-width: 768px) {
-            .nav-links {
-                position: absolute;
-                top: 60px;
-                left: 0;
-                width: 100%;
-                background-color: black; /* White background for the dropdown */
-                flex-direction: column;
-                align-items: center;
-                display: none; /* Hidden by default */
-            }
-
-            .nav-links a {
-                margin: 15px 0;
-            }
-
-            .burger {
-                display: flex;
-            }
-        }
-
-        /* When burger is active, show the nav links */
-        .nav-links.active {
-            display: flex;
-        }
-    </style>
+    <link rel="stylesheet" href="/home/jacques/Code/GitHub/recruitement-agency-site/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -113,7 +17,7 @@
             <!-- Centered Image Icon -->
             <li class="nav-icon">
                 <a href="#index.html">
-                    <img src="logo.png" alt="HTS Icon">
+                    <img src="/home/jacques/Code/GitHub/recruitement-agency-site/Images/WhatsApp Image 2024-09-17 at 11.15.32.jpeg" alt="HTS Icon">
                 </a>
             </li>
 
